@@ -641,3 +641,67 @@ section{
    }
 
 }
+
+.screenshots {
+   background: var(--light-bg);
+   padding: 5rem 10%;
+}
+
+.screenshots .heading {
+   text-align: center;
+   margin-bottom: 3rem;
+}
+
+.screenshots .heading span {
+   font-size: 2.5rem;
+   color: var(--blue);
+}
+
+.screenshots .heading h3 {
+   font-size: 4.5rem;
+   color: var(--black);
+}
+
+.screenshots .swiper-slide {
+   text-align: center;
+   padding: 4rem 2rem;
+   border-radius: .5rem;
+   transform: scale(.9);
+   opacity: .5;
+   margin-bottom: 4rem;
+   cursor: pointer;
+}
+
+.screenshots .swiper-slide img {
+   max-width: 100%;
+   height: auto;
+   border-radius: .5rem;
+}
+
+.screenshots .swiper-slide-active {
+   transform: scale(1);
+   opacity: 1;
+   background: var(--white);
+   box-shadow: var(--box-shadow);
+   border: var(--border);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+   height: 5rem;
+   width: 5rem;
+   line-height: 5rem;
+   background: var(--white);
+   color: var(--black);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+   background: var(--blue);
+   color: var(--white);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+   font-size: 2rem;
+}

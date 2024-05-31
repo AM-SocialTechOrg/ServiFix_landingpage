@@ -100,3 +100,11 @@ var swiper = new Swiper(".blogs-slider", {
       },
    },
 });
+
+var swiper = new Swiper('.screenshots-slider', {
+   loop: true,
+   navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+   },
+});
